@@ -3,7 +3,7 @@ import pandas as pd
 from scipy.io import loadmat
 from benedict import benedict
 
-from io import load_mat, matlab_datenum_to_datetime
+from mat_io import load_mat, matlab_datenum_to_datetime
 
 @click.command()
 @click.option("--concentrations", help="Concentration data file", required=True)
