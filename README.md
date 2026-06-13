@@ -76,14 +76,3 @@ python3 scripts/plot_pscf.py --concentrations data/dmpsdata.mat --trajectories d
 ```
 
 ![Plot](plots/monthly_pscf_anomalies.png)
-
-### Overall monthly trajectory anomalies
-
-This script illustrates monthly trajectory anomalies per grid cell. Positive values (yellower) indicate cells visited more often than the annual monthly mean for that cell; negative values (bluer) indicate cells visited less often. **Note that these plots do not show any particle concentrations**, only trajectory data.
-
-```
-python3 scripts/plot_monthly_trajectory_anomalies.py --trajectories data/trajectorydata_clean.mat --outputfile plots/monthly_trajectory_anomalies.png
-```
-
-![Plot](plots/monthly_trajectory_anomalies.png)
-
